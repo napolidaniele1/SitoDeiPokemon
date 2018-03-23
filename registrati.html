@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <title> Registrati </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+  <link rel="stylesheet" type = "text/css" href="style.css"/>
+  </head>
+
+  <body>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="registrati.html">Registrati</a></li>
+      <li><a href="Catalogo.php">Catalogo</a></li>
+      <form action="CercaPokemon.php" method="post">
+      <input type="text" placeholder="Cerca Pokemon" name="search">
+      </form>
+    </ul>
+
+    <center>
+      <div class="container">
+      <form action="registrati.php" method="post">
+      <label for="exampleInputEmail1"></label>
+      <input type="text" class="form-control" placeholder="Enter name" name="Name"><br>
+
+
+      <label for="exampleInputEmail1"></label>
+         <input type="email" class="form-control" placeholder="Enter email" name="Email"><br>
+
+         <label for="exampleInputPassword1"></label>
+         <input type="password" class="form-control" name ="Password" placeholder="Password"><br>
+
+     <button type="submit"class="btn btn-primary">Submit</button>
+   </div>
+    </center>
+   </form>
+  </body>
+</html>
